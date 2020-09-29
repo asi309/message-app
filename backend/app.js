@@ -8,7 +8,7 @@ const feedRoutes = require('./routes/feed');
 const authRoutes = require('./routes/auth');
 
 const MONGO_DB_URI =
-  'mongodb+srv://user_new:lV4uIAhDOYn44jHa@cluster0.9i27z.mongodb.net/messages?retryWrites=true&w=majority';
+  '';
 
 try {
   mongoose.connect(MONGO_DB_URI, {
